@@ -1,9 +1,10 @@
 <script>
 	import '../app.pcss';
-	import { ThemeSwitch } from 'svelte-ux';
-
+	import { ThemeSwitch, Settings } from 'svelte-ux';
 </script>
 
-<slot />
+<Settings>
+	<slot />
 
-<ThemeSwitch />
+	<ThemeSwitch />
+</Settings>
